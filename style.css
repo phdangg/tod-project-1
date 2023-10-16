@@ -142,14 +142,43 @@ ul,li{
     align-self: flex-end;
 }
 .signup-container{
+    display: flex;
+    justify-content: center;
     background-color: #FFFFFF;
-
+    padding: 100px;
+    
 }
 .signup-ad{
     max-width: 1000px;
+    padding: 50px 200px;
     background-color: #3882f6;
+    border-radius: 1em;
+    gap: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#footer{
+    border-color: white;
+    border-style: solid;
+    align-self: center;
+  
+}
+.signup-text{
+    color: white;
+}
+.signup-quote{
+    font-weight: bold;
+    font-size: 26px;
 }
 .footer-container{
+    padding: 50px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 
+}
+.footer-text{
+    word-spacing: 1px;
+    color: white;
 }
