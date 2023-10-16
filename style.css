@@ -145,6 +145,10 @@ ul,li{
     background-color: #FFFFFF;
 
 }
+.signup-ad{
+    max-width: 1000px;
+    background-color: #3882f6;
+}
 .footer-container{
     background-color: #1F2937;
 
