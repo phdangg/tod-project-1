@@ -93,6 +93,7 @@ ul,li{
     display: flex;
     max-width: 1000px;
     gap: 4rem;
+    padding: 100px;
 }
 .info#title{
     font-size: 36px;
@@ -119,6 +120,26 @@ ul,li{
 }
 .quote-container{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.quote-inside{
+    display: flex;
+    flex-direction: column;
+    max-width: 830px;
+    padding: 100px;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote-author{
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 26px;
+    align-self: flex-end;
 }
 .signup-container{
     background-color: #FFFFFF;
