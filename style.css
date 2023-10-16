@@ -84,6 +84,38 @@ ul,li{
 
 .info-container{
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-box-container{
+    display: flex;
+    max-width: 1000px;
+    gap: 4rem;
+}
+.info#title{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+.info-boxes{
+    display: flex;
+    justify-content: center;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 1em;
+    
 }
 .quote-container{
     background-color: #E5E7EB;
